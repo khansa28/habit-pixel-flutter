@@ -1,0 +1,52 @@
+name: habit_gamification_new
+
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_local_notifications: ^19.4.2
+  flutter_native_splash: ^2.4.8
+  http: ^1.6.0
+  sqflite: ^2.4.3
+  path: ^1.9.1
+  connectivity_plus: ^7.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/habit_gamification_logo.png
+    - assets/images/habitpixel_android12.png
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#081522"
+
+  image: assets/images/habit_gamification_logo.png
+
+  android: true
+  ios: false
+  web: false
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#081522"
+    image: assets/images/habitpixel_android12.png
